@@ -72,7 +72,7 @@ require (
 	github.com/klauspost/cpuid/v2 v2.2.4
 	github.com/lib/pq v1.10.9
 	github.com/markbates/goth v1.77.0
-	github.com/mattn/go-isatty v0.0.18
+	github.com/mattn/go-isatty v0.0.20
 	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/meilisearch/meilisearch-go v0.24.0
 	github.com/mholt/archiver/v3 v3.5.1
@@ -111,7 +111,7 @@ require (
 	golang.org/x/image v0.7.0
 	golang.org/x/net v0.10.0
 	golang.org/x/oauth2 v0.7.0
-	golang.org/x/sys v0.8.0
+	golang.org/x/sys v0.20.0
 	golang.org/x/text v0.9.0
 	golang.org/x/tools v0.8.0
 	google.golang.org/grpc v1.53.0
@@ -174,7 +174,7 @@ require (
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dlclark/regexp2 v1.9.0 // indirect
 	github.com/emersion/go-sasl v0.0.0-20200509203442-7bfe0ed36a21 // indirect
-	github.com/fatih/color v1.15.0 // indirect
+	github.com/fatih/color v1.16.0 // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/fxamacker/cbor/v2 v2.4.0 // indirect
 	github.com/go-ap/errors v0.0.0-20221205040414-01c1adfc98ea // indirect
@@ -210,7 +210,7 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/hashicorp/go-retryablehttp v0.7.2 // indirect
+	github.com/hashicorp/go-retryablehttp v0.7.7 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
