@@ -1,6 +1,6 @@
 module code.gitea.io/gitea
 
-go 1.20
+go 1.22.0
 
 require (
 	code.gitea.io/actions-proto-go v0.2.1
@@ -57,10 +57,10 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/google/go-github/v51 v51.0.0
 	github.com/google/pprof v0.0.0-20230502171905-255e3b9b56de
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.6.0
 	github.com/gorilla/feeds v1.1.1
 	github.com/gorilla/sessions v1.2.1
-	github.com/hashicorp/go-version v1.6.0
+	github.com/hashicorp/go-version v1.7.0
 	github.com/hashicorp/golang-lru v0.6.0
 	github.com/huandu/xstrings v1.4.0
 	github.com/jaytaylor/html2text v0.0.0-20230321000545-74c2419ad056
@@ -68,7 +68,7 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/keybase/go-crypto v0.0.0-20200123153347-de78d2cb44f4
-	github.com/klauspost/compress v1.16.5
+	github.com/klauspost/compress v1.17.11
 	github.com/klauspost/cpuid/v2 v2.2.4
 	github.com/lib/pq v1.10.9
 	github.com/markbates/goth v1.77.0
@@ -96,7 +96,7 @@ require (
 	github.com/sassoftware/go-rpmutils v0.2.0
 	github.com/sergi/go-diff v1.3.1
 	github.com/shurcooL/vfsgen v0.0.0-20200824052919-0d455de96546
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.10.0
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/tstranex/u2f v1.0.0
 	github.com/ulikunitz/xz v0.5.11
@@ -107,13 +107,13 @@ require (
 	github.com/yuin/goldmark v1.5.4
 	github.com/yuin/goldmark-highlighting/v2 v2.0.0-20220924101305-151362477c87
 	github.com/yuin/goldmark-meta v1.1.0
-	golang.org/x/crypto v0.8.0
+	golang.org/x/crypto v0.24.0
 	golang.org/x/image v0.7.0
-	golang.org/x/net v0.10.0
+	golang.org/x/net v0.26.0
 	golang.org/x/oauth2 v0.7.0
-	golang.org/x/sys v0.8.0
-	golang.org/x/text v0.9.0
-	golang.org/x/tools v0.8.0
+	golang.org/x/sys v0.29.0
+	golang.org/x/text v0.16.0
+	golang.org/x/tools v0.22.0
 	google.golang.org/grpc v1.53.0
 	google.golang.org/protobuf v1.30.0
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
@@ -129,7 +129,7 @@ require (
 	cloud.google.com/go/compute v1.18.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	git.sr.ht/~mariusor/go-xsd-duration v0.0.0-20220703122237-02e73435a078 // indirect
-	github.com/ClickHouse/ch-go v0.55.0 // indirect
+	github.com/ClickHouse/ch-go v0.65.0 // indirect
 	github.com/ClickHouse/clickhouse-go/v2 v2.9.1 // indirect
 	github.com/DataDog/zstd v1.4.5 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -181,7 +181,7 @@ require (
 	github.com/go-asn1-ber/asn1-ber v1.5.4 // indirect
 	github.com/go-enry/go-oniguruma v1.2.1 // indirect
 	github.com/go-faster/city v1.0.1 // indirect
-	github.com/go-faster/errors v0.6.1 // indirect
+	github.com/go-faster/errors v0.7.1 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
 	github.com/go-openapi/analysis v0.21.4 // indirect
 	github.com/go-openapi/errors v0.20.3 // indirect
@@ -245,7 +245,7 @@ require (
 	github.com/paulmach/orb v0.9.1 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
-	github.com/pierrec/lz4/v4 v4.1.17 // indirect
+	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
@@ -254,7 +254,7 @@ require (
 	github.com/rhysd/actionlint v1.6.24 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
-	github.com/rogpeppe/go-internal v1.10.0 // indirect
+	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
@@ -281,13 +281,12 @@ require (
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	go.etcd.io/bbolt v1.3.7 // indirect
 	go.mongodb.org/mongo-driver v1.11.4 // indirect
-	go.opentelemetry.io/otel v1.15.1 // indirect
-	go.opentelemetry.io/otel/trace v1.15.1 // indirect
-	go.uber.org/atomic v1.11.0 // indirect
+	go.opentelemetry.io/otel v1.34.0 // indirect
+	go.opentelemetry.io/otel/trace v1.34.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/sync v0.2.0 // indirect
+	go.uber.org/zap v1.27.0 // indirect
+	golang.org/x/mod v0.18.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4 // indirect
