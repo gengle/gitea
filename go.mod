@@ -39,7 +39,7 @@ require (
 	github.com/gliderlabs/ssh v0.3.5
 	github.com/go-ap/activitypub v0.0.0-20230331173947-f5b96d9450d4
 	github.com/go-ap/jsonld v0.0.0-20221030091449-f2a191312c73
-	github.com/go-chi/chi/v5 v5.0.8
+	github.com/go-chi/chi/v5 v5.2.2
 	github.com/go-chi/cors v1.2.1
 	github.com/go-enry/go-enry/v2 v2.8.4
 	github.com/go-fed/httpsig v1.1.1-0.20201223112313-55836744818e
