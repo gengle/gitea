@@ -99,7 +99,7 @@ require (
 	github.com/stretchr/testify v1.8.2
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/tstranex/u2f v1.0.0
-	github.com/ulikunitz/xz v0.5.11
+	github.com/ulikunitz/xz v0.5.14
 	github.com/urfave/cli v1.22.13
 	github.com/xanzy/go-gitlab v0.83.0
 	github.com/xeipuuv/gojsonschema v1.2.0
