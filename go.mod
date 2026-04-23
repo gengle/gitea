@@ -1,6 +1,6 @@
 module code.gitea.io/gitea
 
-go 1.20
+go 1.24
 
 require (
 	code.gitea.io/actions-proto-go v0.2.1
@@ -14,7 +14,7 @@ require (
 	gitea.com/lunny/dingtalk_webhook v0.0.0-20171025031554-e3534c89ef96
 	gitea.com/lunny/levelqueue v0.4.2-0.20220729054728-f020868cc2f7
 	github.com/42wim/sshsig v0.0.0-20211121163825-841cf5bbc121
-	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358
+	github.com/Azure/go-ntlmssp v0.1.1
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/alecthomas/chroma/v2 v2.7.0
