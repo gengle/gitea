@@ -1,6 +1,6 @@
 module code.gitea.io/gitea
 
-go 1.20
+go 1.24
 
 require (
 	code.gitea.io/actions-proto-go v0.2.1
@@ -68,7 +68,7 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/keybase/go-crypto v0.0.0-20200123153347-de78d2cb44f4
-	github.com/klauspost/compress v1.16.5
+	github.com/klauspost/compress v1.18.7
 	github.com/klauspost/cpuid/v2 v2.2.4
 	github.com/lib/pq v1.10.9
 	github.com/markbates/goth v1.77.0
